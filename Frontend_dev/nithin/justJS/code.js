@@ -22,5 +22,5 @@ nm = person3.name;
 
 function wish() {
     var now = document.getElementById("tminp").value();
-    document.getElementById("dat").innerHTML() = now;
+    document.getElementById("dat").innerHTML() = Date("11:13:00");
 }
