@@ -21,6 +21,6 @@ const person4 = {
 nm = person3.name;
 
 function wish() {
-    var now = document.getElementById("tminp");
-    document.getElementById("dat").innerHTML() = now.value();
+    var now = document.getElementById("tminp").value();
+    document.getElementById("dat").innerHTML() = now;
 }
